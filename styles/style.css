@@ -1,0 +1,155 @@
+* {
+box-sizing: border-box;
+color: white;
+}
+
+h1 {
+    color: #FFC857;
+    font-family: Roboto Condensed;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700; 
+}
+
+h2 {
+    color: #7071A9;
+    font-family: Frank Ruhl Libre;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;  
+}
+
+.after {
+    color: #FFC857;
+    width: 75px;
+    height: 2px;
+    margin-left: 5px;
+}
+
+body {
+    background: #1F2041;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 78px;
+    padding: 5px;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    background: #1F2041;
+}
+
+.logoMauro {
+    height: 100%;
+    cursor: pointer;
+    padding: 0px 10px
+}
+
+
+.navList {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 0px 0px 10px;
+}
+
+.navList li {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+
+.navList li .navListText {
+    color: #7071A9;
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navList li:hover .navListText {
+    color: yellow;
+}
+
+.logoList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 1;
+}
+
+.logoListLinks {
+display: flex;
+padding: 10px 10px 10px 10px;
+cursor: pointer;
+}
+
+.logoListLinks:hover {
+opacity: 0.5;
+}
+
+.socialLinkLogo {
+height: 20px;
+aspect-ratio: auto;
+}
+
+section {
+    width: 100%;
+}
+
+.heroSection {
+    padding: 250px 337px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heroContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.profilePicContainer {
+    display:flex;
+    justify-self: flex-end;
+    background-image: url(images/PFP.png);
+    background-size: contain;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.profilePic {
+
+}
+
+.heroIntroText {
+    width:60%;
+}
+
+.heroIntroTextSub {
+    color: rgba(255, 255, 255, 0.30);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutSection {
+    background-color: #172D56;
+}
+
+.contactSection {
+    background-color: #172D56;
+}
