@@ -12,19 +12,19 @@
         <nav>
             <ul class="navList">
                 <li>
-                    <a class="navListText">Intro</a>
+                    <a class="navListText" href="#Intro">Intro</a>
                 </li>
                 <li>
-                    <a class="navListText">About</a>
+                    <a class="navListText" href="#About">About</a>
                 </li>
                 <li>
-                    <a class="navListText">Experience</a>
+                    <a class="navListText" href="#Experience">Experience</a>
                 </li>
                 <li>
-                    <a class="navListText">Skills</a>
+                    <a class="navListText" href="#Skills">Skills</a>
                 </li>
                 <li>
-                    <a class="navListText">Say Hello</a>
+                    <a class="navListText" href="#Contact">Say Hello</a>
                 </li>
             </ul>
         </nav>
@@ -40,7 +40,7 @@
             </li>
         </ul>
     </header>
-    <section class="heroSection">
+    <section class="heroSection"  id="Intro">
         <div class="heroIntroText">
             <h1>Mauro Ramos</h1>
             <h3>Just an ordinary guy</h3>
@@ -54,7 +54,7 @@
         </div>
         </div>
     </section>
-    <section class="aboutSection">
+    <section class="aboutSection" id="About">
         <div class="aboutContainer">
             <div class="aboutHeader">
                 <hr class="before">
@@ -87,8 +87,46 @@
                     </button>
                 </div>
             </div>
+
+            <div class="experienceContainer" id="Experience">
+                <div class="experienceHeader">
+                    <hr class="before">
+                    Work & Education
+                </div>
+                <div class="experienceGrid">
+                    <div class="divider">
+                        <div class="experienceCard">
+                            
+                            <h5>January 2019 - July 2023</h5>
+                            <h4>Unbabel</h4>
+                            <p class="title">Customer Happiness Specialist</p>
+                            <p>As a Customer Happiness Specialist, I've actively listened and responded to customer queries, ensuring a delightful experience with our products. I've leveraged feedback to drive improvements, fostered strong relationships, and boosted satisfaction scores, embodying the company's commitment to exceptional service and customer-centric growth.</p>
+                        </div>
+                        <div class="experienceCard">
+                            <h5>July 2016 - December 2018</h5>
+                            <h4>Ubisoft</h4>
+                            <p class="title">Expert QA & Support Specialist</p>
+                            <p>As an Expert QA & Senior Support Specialist at Ubisoft, I've rigorously tested games for quality assurance, identifying and resolving bugs. My role involved collaborating closely with developers, providing detailed feedback, and enhancing the gaming experience for users, ensuring high standards of performance and reliability in Ubisoft's renowned gaming titles.</p>
+                        </div>
+                    </div>
+                    <div class="divider">
+                        <div class="experienceCard">
+                            <h5>September 2023 - PRESENT</h5>
+                            <h4>Programação Web</h4>
+                            <p class="title">ETIC Algarve</p>
+                            <p>After completing the Web Development course, I'm now able to skillfully craft responsive websites, wielding HTML, CSS, and JavaScript with ease. I'm equipped to build robust back-end infrastructures, ensuring seamless user interactions, and I'm ready to tackle real-world projects with this comprehensive coding toolkit.</p>
+                        </div>
+                        <div class="experienceCard">
+                            <h5>September 2012 - June 2015</h5>
+                            <h4>Psychology</h4>
+                            <p class="title">Universidade Lusófona</p>
+                            <p>With my psychology degree, I've honed expertise in user experience design and behavioral analysis, invaluable for crafting intuitive tech products. I adeptly apply psychological principles to enhance software usability, ensuring that technology aligns with human behavior and cognitive processes for optimal interaction and satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
-    <section class="skillSection">
+    <section class="skillSection"  id="Skills">
         <div class="headerSkillContainer">
             <div class="headerSkill">
                 <hr class="before">
@@ -138,61 +176,50 @@
             </div>
         </div>
     </section>
-    <section class="contactSection">
-        <div class="row">
-            <hr class="before">
-            Get In touch
-        </div>
-        <div class="row">
-            <div class="column">
+    <section class="contactSection" id="Contact"    >
+            <div class="contactHeader">
+                <hr class="before">
+                Get In touch
+            </div>
+            <div class="contactDescription">
                 <h1>mauro_ramos@eticalgarve.com</h1>
+                <h1></h1>
+                <p class="contactPitch"> I'm happy to connect, listen and help. Let's work together and build something awesome. Let's turn your idea to an even greater product.</p>
             </div>
-            <p class="contactPitch"> I'm happy to connect, listen and help. Let's work together and build something awesome. Let's turn your idea to an even greater product.</p>
-        </div>
-        <div class="row">
-            <div class="skillContainer">
-                <div class="column">
-                    Call me
-                    <br>
-                    +351 9XXXXXXXX
-                </div>
-            </div>
-            <div class="skillContainer">
-                <div class="column">
-                    Mail me
-                    <div class="form">
-                        Name
-                        <input type="text" name="Name">
-                        email
-                        <input type="text" name="email">
-                        Message
-                        <input type="text" name="Message">
+            <div class="row">
+                <div class="contactformContainer">
+                    <div class="formcolumn">
+                        <div class="formInputs">
+                            <p>Name</p>
+                            <br>
+                            <input type="text" name="Name">
+                            <p>Email</p>
+                            <br>
+                            <input type="text" name="email">
+                            <p>Message</p>
+                            <br>
+                            <input class="textMessage" type="text" name="Message">
+                            <button type="button">
+                                Send Email
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerLinks">
+                <a href="Nowhere">Github</a>
+                <a href="Nowhere">LinkedIn</a>
+            </div>
+            © 2010 — 2024
+            Privacy/Terms
+            <div class="footerLinks">
+                <a href="Nowhere">Email</a>
+                <a href="#Intro">Home</a>
+            </div>
+        </div >
+    </footer>
 </body>
 </html>
-
-
-<section class="aboutSection">
-    <header class="navigation">
-        <nav class="navMenu">
-            <ul class="navList">
-                <li class="navItem"></li>
-                <li class="navItem"></li>
-                <li class="navItem"></li>
-                <li class="navItem"></li>
-            </ul>
-        </nav>
-    </header>
-    <footer class="footerSection">
-        <p class="footerInfo"></p>
-        <p class="footerInfo"></p>
-    </footer>
-</section>
-
-<div class="aboutSection">
-
-</div>
